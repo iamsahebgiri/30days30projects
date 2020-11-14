@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PassGen. - Yet another secure password generator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h1 class="heading">PassGen<span>.</span></h1>
+      <div class="resultContainer">
+        <div class="result">
+          <textarea id="result" class="resultTextarea" spellcheck="false">
+Loading...</textarea
+          >
+        </div>
+        <div class="userController">
+          <div class="checkboxController">
+            <div>
+              <input
+                type="checkbox"
+                id="letters"
+                onchange="generate_random_password()"
+                checked
+              />
+              <label for="letters">Letters</label>
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+                id="numbers"
+                onchange="generate_random_password()"
+                checked
+              />
+              <label for="numbers">Numbers</label>
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+                id="symbols"
+                onchange="generate_random_password()"
+                checked
+              />
+              <label for="symbols">Symbols</label>
+            </div>
+          </div>
+          <div class="rangeController">
+            <label for="length">Length</label>
+            <input type="range" id="length" max="30" min="4" value="8" />
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-secondary" id="copy">Copy</button>
+      <button class="btn" id="generate" onclick="generate_random_password()">
+        Generate
+      </button>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+:root {
+  /* Dark Mode Colors */
+  --bg: #1a202c;
+  --fg: #fafbfc;
+  --svg-color: #a0aec0;
+  --subtle-text: #a0aec0;
+  --code-bg: #2d3748;
+  --output-border: #4a5568;
+}
+
+.light {
+  --bg: #fafbfc;
+  --fg: #1a202c;
+  --svg-color: #a0aec0;
+  --subtle-text: #a0aec0;
+  --code-bg: #1a202c;
+  --output-border: #a0aec0;
+}
+
+.main-container {
+  background-color: var(--bg);
+}
+
+.output-container {
+  border-color: var(--output-border);
+}
+
+.subtle-text {
+  color: var(--subtle-text);
+}
+
+.text {
+  color: var(--fg);
+}
+
+.heading {
+  color: var(--fg);
+}

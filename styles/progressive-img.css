@@ -1,0 +1,28 @@
+.placeholder img {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: opacity 1s linear;
+}
+
+.placeholder img.loaded {
+  opacity: 1;
+}
+
+.intrinsic-placeholder {
+  padding-bottom: 56.25%;
+}
+
+.img-small {
+  filter: blur(30px);
+  transform: scale(1);
+}
+
+.img-large {
+  margin: 0;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}

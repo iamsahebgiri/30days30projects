@@ -7,10 +7,54 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'accent-1': '#333',
+        neutral: '#0A2540',
+        'primary-1': '#fb8500',
+        'primary-2': '#ffb703',
+      },
+      fontFamily: {
+        sans: [
+          'Inter',
+          'system-ui',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          '"Segoe UI"',
+          'Roboto',
+          '"Helvetica Neue"',
+          'Arial',
+          '"Noto Sans"',
+          'sans-serif',
+          '"Apple Color Emoji"',
+          '"Segoe UI Emoji"',
+          '"Segoe UI Symbol"',
+          '"Noto Color Emoji"',
+        ],
+        heading: [
+          'Product Sans',
+          '"Segoe UI"',
+          'Roboto',
+          '"Helvetica Neue"',
+          'Arial',
+        ],
+        serif: [
+          'Roboto Slab',
+          'Georgia',
+          'Cambria',
+          '"Times New Roman"',
+          'Times',
+          'serif',
+        ],
+        mono: [
+          'Roboto Mono',
+          'Menlo',
+          'Monaco',
+          'Consolas',
+          '"Liberation Mono"',
+          '"Courier New"',
+          'monospace',
+        ],
       },
     },
   },
   variants: {},
   plugins: [],
-}
+};
