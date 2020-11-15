@@ -1,13 +1,13 @@
 [
     {
         "day": 1,
-        "image_url": "/img/day1.png",
+        "image_url": "/img/password-generator.png",
         "title": "Password Generator",
         "slug": "password-generator"
     },
     {
         "day": 2,
-        "image_url": "/img/day1.png",
+        "image_url": "/img/chrome-extension.png",
         "title": "Chrome Extension",
         "slug": "chrome-extension"
     }

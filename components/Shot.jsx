@@ -18,7 +18,7 @@ export default function Shot({ project }) {
 
     // large image
     const img_large = new Image();
-    img_large.src = `/_next/image?url=${image_url}&w=1280&q=100`;
+    img_large.src = `/_next/image?url=${image_url}&w=1280&q=75`;
     img_large.onload = () => {
       setIsLargeImgLoaded(true);
     };
@@ -38,7 +38,7 @@ export default function Shot({ project }) {
               className={clsx('img-small', isSmallImgLoaded && 'loaded')}
             />
             <img
-              src={`/_next/image?url=${image_url}&w=1280&q=100`}
+              src={`/_next/image?url=${image_url}&w=1280&q=75`}
               alt={title}
               className={clsx('img-large', isLargeImgLoaded && 'loaded')}
             />

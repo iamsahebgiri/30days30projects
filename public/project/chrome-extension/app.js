@@ -1,5 +1,5 @@
-const URL = 'https://favqs.com/api/qotd';
-// const URL = 'https://breaking-bad-quotes.herokuapp.com/v1/quotes';
+// const URL = 'https://favqs.com/api/qotd';
+const URL = 'https://breaking-bad-quotes.herokuapp.com/v1/quotes';
 
 const quote = document.querySelector('.quote');
 const quoteAuthor = document.querySelector('.quoteAuthor');
@@ -7,6 +7,6 @@ const quoteAuthor = document.querySelector('.quoteAuthor');
 fetch(URL)
   .then((res) => res.json())
   .then((res) => {
-    quote.textContent = res.quote.body;
-    quoteAuthor.textContent = res.quote.author;
+    quote.textContent = res[0].quote;
+    quoteAuthor.textContent = res[0].author;
   });
