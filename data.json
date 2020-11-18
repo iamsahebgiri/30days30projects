@@ -10,5 +10,11 @@
         "image_url": "/img/chrome-extension.png",
         "title": "Chrome Extension",
         "slug": "chrome-extension"
+    },
+    {
+        "day": 3,
+        "image_url": "/img/smartwatch-js.png",
+        "title": "Smartwatch",
+        "slug": "smartwatch-js"
     }
 ]
