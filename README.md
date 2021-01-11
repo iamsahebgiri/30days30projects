@@ -1,29 +1,40 @@
-# Tailwind CSS example
+# 30Days30Projects
 
-This is an example of using [Tailwind CSS](https://tailwindcss.com) in a Next.js project.
+Learn by building simple projects, using HTML, CSS, Vanilla JS.
 
-## Deploy your own
+It's recommended that you don't use any js framework or CSS preprocessor like scss or HTML template engine like pug,etc.
 
-Deploy the example using [Vercel](https://vercel.com):
+Use minimal libraries.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss)
+The list of projects are given below -
 
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-
-## Notes
-
-This example is a basic starting point for using [Tailwind CSS](https://tailwindcss.com) with Next.js. It includes the following [PostCSS](https://github.com/postcss/postcss) plugins:
-
-- [postcss-preset-env](https://preset-env.cssdb.org/) - Adds stage 2+ features and autoprefixes
-
-To control the generated stylesheet's filesize, this example uses Tailwind CSS' [`purge` option](https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css) to remove unused CSS.
+*  [x] Day 01 - Password Generator
+*  [x] Day 02 - Chrome Extension
+*  [x] Day 03 - Smartwatch
+*  [ ] Day 04 - Weather App
+*  [ ] Day 05 - Todo App
+*  [ ] Day 06 - News App
+*  [ ] Day 07 - Drawing App
+*  [ ] Day 08 - Math Quiz Game
+*  [ ] Day 09 - Background Pattern Generator
+*  [ ] Day 10 - Speed Typing Test
+*  [ ] Day 11 - Spend Ambani's Money
+*  [ ] Day 12 - Every Second
+*  [ ] Day 13 - Car Avoidance Game
+*  [ ] Day 14 - Instagram Image Feed
+*  [ ] Day 15 - Background Changer
+*  [ ] Day 16 - Notes App
+*  [ ] Day 17 - Music Player
+*  [ ] Day 18 - Pixel Art Generator
+*  [ ] Day 19 - Simple Meme Generator
+*  [ ] Day 20 - Resume Builder
+*  [ ] Day 21 - Job Board
+*  [ ] Day 22 - Font Spark
+*  [ ] Day 23 - Profile Picture Maker
+*  [ ] Day 24 - Calculator
+*  [ ] Day 25 - Random Waves Generator
+*  [ ] Day 26 - Video Player
+*  [ ] Day 27 - Dictionary App
+*  [ ] Day 28 - Thumbnail Generator
+*  [ ] Day 29 - Search Engine - Use Bing API
+*  [ ] Day 30 - Wikipedia
