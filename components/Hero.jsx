@@ -1,34 +1,54 @@
-import Link from 'next/link';
-import React from 'react';
+import {
+  Box,
+  Button,
+  Heading,
+  Text,
+  useColorModeValue,
+} from '@chakra-ui/react';
 
 export default function Hero() {
+  const colorHeading = useColorModeValue('blueGray.800', 'blueGray.100');
+  const colorSubtitle = useColorModeValue('blueGray.500', 'blueGray.400');
+
   return (
-    <div className='mt-12 text-center'>
-      <h1 className='heading font-heading gradient-shift font-bold text-4xl tracking-tight sm:text-4xl md:text-5xl xl:text-5xl leading-tight'>
-        30 Days 30 Projects
-      </h1>
-      <div className='w-full mt-6 px-4 flex items-center justify-center'>
-        <p className='leading-relaxed max-w-md text-gray-600'>
-          Learn to code by building projects. Share your progress with the
-          world. Send us ideas by creating github issues.
-        </p>
-      </div>
-      <div className='flex mt-10 justify-center'>
-        <a
-          href='https://www.youtube.com/channel/UC9VTm-aiiHa4uUMWAgYtcHg'
-          target='_blank'
-          className='rounded-md px-4 md:px-5 xl:px-4 py-3 md:py-4 xl:py-3 bg-primary-1 hover:bg-primary-2 md:text-lg xl:text-base text-white font-semibold leading-tight shadow-md'
+    <>
+      <Box as="section">
+        <Box
+          maxW="2xl"
+          mx="auto"
+          px={{ base: '6', lg: '8' }}
+          py={{ base: '16', sm: '20' }}
+          textAlign="center"
         >
-          Watch Videos
-        </a>
-        <a
-          href='https://github.com/iamsahebgiri/30days30projects/tree/main/public/project'
-          target='_blank'
-          className='ml-4 rounded-md px-4 md:px-5 xl:px-4 py-3 md:py-4 xl:py-3 bg-white hover:bg-gray-200 md:text-lg xl:text-base text-gray-800 font-semibold leading-tight shadow-md'
-        >
-          Source Code
-        </a>
-      </div>
-    </div>
+          <Heading
+            size="2xl"
+            letterSpacing="tight"
+            fontWeight="bold"
+            color={colorHeading}
+          >
+            One project{' '}
+            <Text as="span" color="amber.500">
+              everyday
+            </Text>
+          </Heading>
+          <Text mt="4" fontSize="md" color={colorSubtitle}>
+            Create a project every day for a month. You can pick any libray and
+            framework you like. It's meant to improve programming skills by
+            building projects.
+          </Text>
+          <Button
+            mt="8"
+            as="a"
+            href="https://github.com/iamsahebgiri/30days30projects/tree/main/public/project"
+            colorScheme="amber"
+            target="_blank"
+            rel="noopener noreferer"
+            _focus={{ boxShadow: 'none' }}
+          >
+            View source code
+          </Button>
+        </Box>
+      </Box>
+    </>
   );
 }

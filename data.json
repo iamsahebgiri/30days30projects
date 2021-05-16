@@ -1,20 +1,29 @@
 [
-    {
-        "day": 1,
-        "image_url": "/img/password-generator.png",
-        "title": "Password Generator",
-        "slug": "password-generator"
-    },
-    {
-        "day": 2,
-        "image_url": "/img/chrome-extension.png",
-        "title": "Chrome Extension",
-        "slug": "chrome-extension"
-    },
-    {
-        "day": 3,
-        "image_url": "/img/smartwatch-js.png",
-        "title": "Smartwatch",
-        "slug": "smartwatch-js"
-    }
+  {
+    "day": 1,
+    "image_url": "/img/password.png",
+    "title": "Password Generator",
+    "description": "Use our random password generator to create strong passwords for all your online accounts.",
+    "tags": ["clipboard", "secure"],
+    "theme": "yellow",
+    "slug": "password-generator"
+  },
+  {
+    "day": 2,
+    "image_url": "/img/chrome.png",
+    "title": "Chrome Extension",
+    "description": "Learn to use built in fetch API to interact other APIs from your app.",
+    "tags": ["chrome", "breaking bad"],
+    "theme": "green",
+    "slug": "chrome-extension"
+  },
+  {
+    "day": 3,
+    "image_url": "/img/apple-watch.png",
+    "title": "Smartwatch",
+    "description": "A smartwatch showing date and time with rotating animation.",
+    "tags": ["luxon"],
+    "theme": "messenger",
+    "slug": "smartwatch-js"
+  }
 ]
