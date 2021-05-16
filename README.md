@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://gofiber.io">
-    <img alt="Fiber" height="80" src="https://raw.githubusercontent.com/iamsahebgiri/30days30projects/main/public/logo.svg">
+  <a href="https://30days30projects.vercel.app/">
+    <img alt="30 Days 30 Projects" height="80" src="https://raw.githubusercontent.com/iamsahebgiri/30days30projects/main/public/logo.svg">
   </a>
 </p>
 <h1 align="center">30 Days 30 Projects</h1>
