@@ -7,7 +7,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@chakra-ui/react": "^1.6.1",
+    "@chakra-ui/react": "^1.6.2",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
     "framer-motion": "^4",
