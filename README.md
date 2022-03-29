@@ -57,7 +57,7 @@ The list of projects are given below -
 *  [ ] Day 20 - Resume Builder
 *  [ ] Day 21 - Job Board
 *  [ ] Day 22 - Font Spark
-*  [ ] Day 23 - Profile Picture Maker
+*  [x] Day 23 - Avatar Maker
 *  [ ] Day 24 - Calculator
 *  [ ] Day 25 - Random Waves Generator
 *  [ ] Day 26 - Video Player
