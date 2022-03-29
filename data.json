@@ -25,5 +25,14 @@
     "tags": ["luxon"],
     "theme": "messenger",
     "slug": "smartwatch-js"
+  },
+  {
+    "day": 3,
+    "image_url": "/img/test-account.png",
+    "title": "Avatar Generator",
+    "description": "A stupid SVG based avatar generator that generates infinite combination of avatars.",
+    "tags": ["Tools"],
+    "theme": "indigo",
+    "slug": "avatar-generator"
   }
 ]
