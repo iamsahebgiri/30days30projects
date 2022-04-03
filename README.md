@@ -49,7 +49,7 @@ The list of projects are given below -
 *  [ ] Day 12 - Every Second
 *  [ ] Day 13 - Car Avoidance Game
 *  [ ] Day 14 - Instagram Image Feed
-*  [ ] Day 15 - Background Changer
+*  [ ] Day 15 - ColorSpark
 *  [ ] Day 16 - Notes App
 *  [ ] Day 17 - Music Player
 *  [ ] Day 18 - Pixel Art Generator
