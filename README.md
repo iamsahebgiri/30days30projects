@@ -26,6 +26,7 @@
 </div>
 
 ## ⚡️  Introduction
+
 It's recommended that you don't use any js framework or CSS preprocessor like scss or HTML template engine like pug,etc.
 
 Use as minimal libraries as possible.
@@ -33,53 +34,54 @@ Use as minimal libraries as possible.
 The goal is to be well versed with HTML, CSS, JavaScript and Browser APIs such as localStorage, IndexDB, etc.
 
 ## 🎯 All Projects
+
 The list of projects are given below -
 
-*  [x] Day 01 - Password Generator
-*  [x] Day 02 - Chrome Extension
-*  [x] Day 03 - Smartwatch
-*  [ ] Day 04 - Weather App
-*  [ ] Day 05 - Todo App
-*  [ ] Day 06 - News App
-*  [ ] Day 07 - Drawing App
-*  [ ] Day 08 - Math Quiz Game
-*  [ ] Day 09 - Background Pattern Generator
-*  [ ] Day 10 - Speed Typing Test
-*  [ ] Day 11 - Spend Ambani's Money
-*  [ ] Day 12 - Every Second
-*  [ ] Day 13 - Car Avoidance Game
-*  [ ] Day 14 - Instagram Image Feed
-*  [ ] Day 15 - ColorSpark
-*  [ ] Day 16 - Notes App
-*  [ ] Day 17 - Music Player
-*  [ ] Day 18 - Pixel Art Generator
-*  [ ] Day 19 - Simple Meme Generator
-*  [ ] Day 20 - Resume Builder
-*  [ ] Day 21 - Job Board
-*  [ ] Day 22 - Font Spark
-*  [x] Day 23 - Avatar Maker
-*  [ ] Day 24 - Calculator
-*  [ ] Day 25 - Random Waves Generator
-*  [ ] Day 26 - Video Player
-*  [ ] Day 27 - Dictionary App
-*  [ ] Day 28 - Thumbnail Generator
-*  [ ] Day 29 - Search Engine - Use Bing API
-*  [ ] Day 30 - Wikipedia
+* [x] Day 01 - Password Generator
+* [x] Day 02 - Chrome Extension
+* [x] Day 03 - Smartwatch
+* [ ] Day 04 - Weather App
+* [ ] Day 05 - Todo App
+* [ ] Day 06 - News App
+* [ ] Day 07 - Drawing App
+* [ ] Day 08 - Math Quiz Game
+* [ ] Day 09 - Background Pattern Generator
+* [ ] Day 10 - Speed Typing Test
+* [ ] Day 11 - Spend Ambani's Money
+* [ ] Day 12 - Every Second
+* [ ] Day 13 - Car Avoidance Game
+* [ ] Day 14 - Instagram Image Feed
+* [ ] Day 15 - ColorSpark
+* [ ] Day 16 - Notes App
+* [ ] Day 17 - Music Player
+* [x] Day 18 - TicTacToe
+* [ ] Day 19 - Simple Meme Generator
+* [ ] Day 20 - Resume Builder
+* [ ] Day 21 - Job Board
+* [ ] Day 22 - Font Spark
+* [x] Day 23 - Avatar Maker
+* [ ] Day 24 - Calculator
+* [ ] Day 25 - Random Waves Generator
+* [ ] Day 26 - Video Player
+* [ ] Day 27 - Dictionary App
+* [ ] Day 28 - Thumbnail Generator
+* [ ] Day 29 - Search Engine - Use Bing API
+* [ ] Day 30 - Wikipedia
 
 ## 🌱 Third Party Libraries
 
- - [Next JS](https://nextjs.org/)
- - [React JS](https://reactjs.org/)
- - [Chakra UI](https://chakra-ui.com/)
- - [React Icons](https://react-icons.github.io/react-icons/)
+* [Next JS](https://nextjs.org/)
+* [React JS](https://reactjs.org/)
+* [Chakra UI](https://chakra-ui.com/)
+* [React Icons](https://react-icons.github.io/react-icons/)
   
-## ‎‍💻 Authors
+## 💻 Authors
 
-- [@iamsahebgiri](https://www.github.com/iamsahebgiri)
+* [@iamsahebgiri](https://www.github.com/iamsahebgiri)
+
 ## ⭐️ Show your support
 
 Give a star if this project helped you!
-
 
 ## ⚠️ License
 

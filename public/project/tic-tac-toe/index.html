@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+
+<body>
+    <div class="board">
+        <button class="square" onclick="handleClick(this, 0)"></button>
+        <button class="square" onclick="handleClick(this, 1)"></button>
+        <button class="square" onclick="handleClick(this, 2)"></button>
+        <button class="square" onclick="handleClick(this, 3)"></button>
+        <button class="square" onclick="handleClick(this, 4)"></button>
+        <button class="square" onclick="handleClick(this, 5)"></button>
+        <button class="square" onclick="handleClick(this, 6)"></button>
+        <button class="square" onclick="handleClick(this, 7)"></button>
+        <button class="square" onclick="handleClick(this, 8)"></button>
+    </div>
+    <div class="overlay">
+        <div class="popup">
+            <div class="popup__header">
+                <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_iijuwalz/data.json"
+                    background="transparent" speed="1" style="height: 16rem; width: 16rem;" loop autoplay>
+                </lottie-player>
+                <h1 class="greet"></h1>
+                <p class="greet-description"></p>
+            </div>
+
+            <div class="popup__footer">
+                <button class="btn" type="button" role="button" onclick="resetGame()">Continue</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

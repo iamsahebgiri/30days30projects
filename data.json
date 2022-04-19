@@ -27,6 +27,15 @@
     "slug": "smartwatch-js"
   },
   {
+    "day": 15,
+    "image_url": "/img/tic-tac-toe.png",
+    "title": "Tic Tac Toe",
+    "description": "A paper-and-pencil Os and Xs game for two players.",
+    "tags": ["Game"],
+    "theme": "teal",
+    "slug": "tic-tac-toe"
+  },
+  {
     "day": 23,
     "image_url": "/img/test-account.png",
     "title": "Avatar Generator",
